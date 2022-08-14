@@ -1,0 +1,125 @@
+/* ************** */
+/* NAVIGATION*/
+/* ************** */
+.nav-bar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+
+  width: 250px;
+  font-family: var(--ff-2);
+  font-size: 18px;
+  color: var(--gray-03);
+  padding: 8px 16px;
+
+  overflow-y: scroll;
+}
+
+.logo-box {
+  padding: 16px;
+}
+
+.logo {
+  font-size: 24px;
+  letter-spacing: 4px;
+  margin: 10px 0;
+  color: var(--black);
+  font-family: var(--ff-1);
+  font-weight: 500;
+}
+
+.nav-bar-nav {
+  padding: 64px 0;
+}
+
+.nav-items:hover .sub-nav {
+  display: block;
+}
+
+.nav-link {
+  padding: 8px 16px;
+}
+
+.nav-link:hover {
+  background-color: var(--gray-01);
+  color: var(--black);
+}
+
+.sub-nav {
+  display: none;
+  padding: 12px 24px;
+  font-size: 15px;
+}
+
+.nav-contact-box {
+  font-size: 15px;
+  color: var(--black);
+}
+
+/* ************** */
+/* HERO*/
+/* ************** */
+.hero-box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  align-items: center;
+}
+
+.hero-title {
+  font-weight: 400;
+  margin: 24px 0;
+}
+
+.hero-link-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+}
+
+.hero-img-box {
+  position: relative;
+}
+
+.heading-primary-box {
+  position: absolute;
+  top: 34px;
+  left: 32px;
+}
+
+/* ************** */
+/* SUBCRIBE*/
+/* ************** */
+
+.subcribe .container {
+  background-color: var(--black);
+}
+
+/* ************** */
+/* DESCRIPTION*/
+/* ************** */
+.description .container {
+  background-color: var(--gray-02);
+}
+.description-box {
+  display: flex;
+  padding: 64px 0;
+}
+
+.description-items {
+  flex-basis: calc(100% / 3);
+}
+
+/* ************** */
+/* footer*/
+/* ************** */
+
+footer .container {
+  background-color: var(--black);
+  padding: 24px 0;
+  text-align: center;
+}
+
+footer p {
+  color: var(--white);
+}

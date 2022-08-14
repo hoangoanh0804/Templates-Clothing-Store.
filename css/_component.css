@@ -1,0 +1,80 @@
+/* ************** */
+/* BUTTON */
+/* ************** */
+
+.btn{
+    font-size: 18px;
+    line-height: calc(27 / 18);
+    padding: 12px 24px;
+    white-space: nowrap;
+   
+}
+
+.btn:hover{
+    color: var(--black);
+    background-color: var(--gray-01);
+}
+
+/* ************** */
+/* CARD */
+/* ************** */
+
+.card-img-box{
+    position: relative;
+
+
+
+}
+
+.card-img-box:hover .card-btn {
+    display: block;
+
+}
+
+.card-img{
+    filter: grayscale(0.7);
+}
+
+.card-btn{
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    padding: 8px 16px;
+
+}
+
+.card-body{
+    margin: 15px 0;
+}
+
+.card-price{
+    font-weight: 500;
+}
+/* ************** */
+/* FORM */
+/* ************** */
+.form{
+    padding: 32px 0;
+}
+
+.form-title{
+    font-size: 36px;
+    line-height: calc(54 / 36);
+    margin: 10px 0;
+    color: var(--white);
+
+
+}
+
+.form-description{
+    color: var(--white);
+    margin: 15px 0;
+}
+
+.form-btn{
+    background-color: var(--red);
+    margin: 16px 0;
+}

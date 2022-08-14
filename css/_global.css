@@ -1,0 +1,13 @@
+:root {
+  /* color */
+  --white: #fff;
+  --black: #000;
+  --red: #f44336;
+  --gray-01: #ccc;
+  --gray-02: #f1f1f1;
+  --gray-03: #757575;
+
+  /* font-family */
+  --ff-1: "Montserrat", sans-serif;
+  --ff-2: "Roboto", sans-serif;
+}

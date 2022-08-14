@@ -1,0 +1,28 @@
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: calc(1200px - 250px);
+    margin-left: 250px;
+    padding: 0 16px ;
+
+}
+
+.grid{
+    --grid-col: 1;
+  --column-gap: 32px;
+  --row-gap: 0px;
+
+  display: grid;
+  grid-template-columns: repeat(var(--grid-col), 1fr);
+  align-items: start;
+  column-gap: var(--column-gap);
+  row-gap: var(--row-gap);
+   
+}
+
+.grid--4-cols{
+    --grid-col: 4;
+}

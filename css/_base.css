@@ -1,0 +1,77 @@
+/* ************** */
+/* RESET CSS */
+/* ************** */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: var(--ff-1);
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--black);
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  display: block;
+
+  font: inherit;
+  color: inherit;
+
+}
+
+img{
+  display: block;
+  width: 100%;
+
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: inherit;
+  color: inherit;
+}
+
+button{
+  display: block;
+  font: inherit;
+  color: var(--white);
+  background-color: var(--black);
+  cursor: pointer;
+  border: none;
+}
+
+input{
+  width: 100%;
+  padding: 8px;
+  font-size: 15px;
+  line-height: 1.5;
+  border: 1px solid var(--gray-01);
+
+  margin-bottom: 12px;
+}
+/* ************** */
+/* RESAVEABLE */
+/* ************** */
+.heading-primary{
+  font-size: 64px;
+  line-height: calc(96 / 64);
+  margin: 10px 0;
+  font-weight: 400;
+  color: var(--white);
+
+}
+
+.subheading-primary{
+  font-size: 36px;
+  line-height: calc(54 / 36);
+  margin: 10px 0;
+  color: var(--white);
+}
