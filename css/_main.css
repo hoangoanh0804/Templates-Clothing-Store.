@@ -57,6 +57,34 @@
 }
 
 /* ************** */
+/* HEADER*/
+/* ************** */
+
+.m-navbar{
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.m-navbar .logo-box{
+  padding: 24px 16px;
+}
+
+.m-navbar .logo {
+  color: var(--white);
+
+}
+
+.m-toggler-box ion-icon {
+  font-size: 24px;
+  padding: 24px 16px;
+}
+ 
+
+
+/* ************** */
 /* HERO*/
 /* ************** */
 .hero-box {
@@ -95,6 +123,11 @@
   background-color: var(--black);
 }
 
+.product-text{
+  margin: 15px 0;
+  
+}
+
 /* ************** */
 /* DESCRIPTION*/
 /* ************** */
@@ -104,12 +137,50 @@
 .description-box {
   display: flex;
   padding: 64px 0;
+  font-size: 12px;
+  
 }
 
 .description-items {
   flex-basis: calc(100% / 3);
 }
 
+.desc-title{
+  
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.contact-desc{
+  text-align: center;
+  margin: 12px 0;
+}
+
+.contact-btn{
+  width: 100%;
+  font-size: 12px;
+  padding: 8px 16px;
+}
+
+.contact-input{
+  font-size: 12px;
+  font-family: var(--ff-1);
+
+}
+
+.about-items{
+  margin-bottom: 12px;
+  text-decoration: underline;
+}
+
+.desc-text{
+  margin-bottom: 12px;
+}
+
+.desc-logo-box{
+  font-size: 18px;
+  margin-top: 30px;
+}
 /* ************** */
 /* footer*/
 /* ************** */

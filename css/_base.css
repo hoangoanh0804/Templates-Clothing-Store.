@@ -75,3 +75,35 @@ input{
   margin: 10px 0;
   color: var(--white);
 }
+
+.new .card-img-box::before{
+  content: "New";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  color: var(--white);
+  background-color: var(--black);
+  padding: 0 8px;
+
+
+}
+
+.sale .card-img-box::before{
+  content: "Sale";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  color: var(--white);
+  background-color: var(--black);
+  padding: 0 8px;
+  
+
+}
+
+.sale .card-price {
+  color: var(--red);
+}

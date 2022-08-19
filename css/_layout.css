@@ -1,17 +1,18 @@
 .wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
+  --wrapper-width: 1200px;
+  --navbar-width: 250px;
+  max-width: var(--wrapper-width);
+  margin: 0 auto;
 }
 
-.container{
-    max-width: calc(1200px - 250px);
-    margin-left: 250px;
-    padding: 0 16px ;
-
+.container {
+  max-width: calc(var(--wrapper-width) - var(--navbar-width));
+  margin-left: var(--navbar-width);
+  padding: 0 16px;
 }
 
-.grid{
-    --grid-col: 1;
+.grid {
+  --grid-col: 1;
   --column-gap: 32px;
   --row-gap: 0px;
 
@@ -20,9 +21,8 @@
   align-items: start;
   column-gap: var(--column-gap);
   row-gap: var(--row-gap);
-   
 }
 
-.grid--4-cols{
-    --grid-col: 4;
+.grid--4-cols {
+  --grid-col: 4;
 }
